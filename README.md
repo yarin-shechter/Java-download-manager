@@ -2,7 +2,7 @@
 A Java command line application that implements a download manager/accelerator (remember FlashGet?). The application utilizes concurrent HTTP connections to accelerate downloads.
 The application receives up to two parameters - A download URL, and the maximum allowed number of concurrent HTTP connections.
 The application will properly resume download after the previous invocation was terminated due to a signal (any signal) or network disconnection, and prints its progress in "percentage completed" terms.
-# Recommended download for demo (allows concurrent HTTP connections): https://archive.org/download/Mario1_500/Mario1_500.avi
+### Recommended download for demo (allows concurrent HTTP connections): https://archive.org/download/Mario1_500/Mario1_500.avi
 
 List of software components :
 - IdcDM - program entry point, containing the main method which calls DownloadManager.
